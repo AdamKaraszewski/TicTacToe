@@ -1,9 +1,15 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import org.example.model.Board;
+import org.example.model.BoardManager;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.print("Hello World!");
+        byte x = 1;
+        byte o = -1;
+        byte empty = 0;
+
+        Board board = new Board();
+        BoardManager boardManager = new BoardManager();
     }
 }
